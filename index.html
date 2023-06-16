@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/4974e5e0d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Surfing</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <!-- logo -->
+        <a class="logo" href="/">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <!-- nav and list -->
+
+        <ul class="navigation__nav">
+          <li class="navigation__item">
+            <a href="#">Story</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Events</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Places</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Boards</a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="hero">
+        <div class="hero__text">
+          <p class="text-blue">Your</p>
+          <h1 class="hero__title">Beautiful Escape</h1>
+          <p class="hero__description">
+            One of the greatest things about sport of surfing is you only need
+            three things: your body, a surfboard and a wave
+          </p>
+        </div>
+
+        <img class="hero__image" src="img/hero.png" alt="sky diving man" />
+      </section>
+
+      <div class="quote">
+        <quote>
+          Surfing is the most blissful experience you can have on this planet, a
+          taste of heaven.
+        </quote>
+        <p class="quote__author">John Maccarthy</p>
+      </div>
+
+      <div class="line"></div>
+
+      <section class="preview">
+        <div class="preview__image">
+          <img
+            src="./img/man-with-skate-board.png"
+            id="skate"
+            alt="man with skate board"
+          />
+          <p class="preview__description">
+            By better understanding the various aspects of surfing, you will
+            improve faster and have more fun in the water.
+          </p>
+
+          <button class="button__custom">read more</button>
+        </div>
+        <div class="preview__video">
+          <video
+            controls
+            crossorigin
+            playsinline
+            poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+          >
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+              type="video/mp4"
+              size="576"
+            />
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+              type="video/mp4"
+              size="720"
+            />
+            <source
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+              type="video/mp4"
+              size="1080"
+            />
+
+            <!-- Caption files -->
+            <track
+              kind="captions"
+              label="English"
+              srclang="en"
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+              default
+            />
+            <track
+              kind="captions"
+              label="Français"
+              srclang="fr"
+              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt"
+            />
+            <!-- Fallback for browsers that don't support the <video> element -->
+            <a
+              href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+              download
+              >Download</a
+            >
+          </video>
+        </div>
+      </section>
+
+      <main class="surfboards__shop">
+        <div class="surfboards__shop__title">
+          <p class="text-blue">Shop</p>
+          <h1 class="surfboard__title">Surfboards</h1>
+        </div>
+
+        <div class="wrapper">
+          <div class="carousel">
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item__wrapper">
+              <div class="carousel__box__wrapper">
+                <img class="carousel__box__image" src="./img/board3.png" />
+                <div class="carousel__box__text">
+                  <div class="carousel__box__text-title">
+                    <h3 class="board__type">Surfboards</h3>
+                    <h2 class="board__name">My first text</h2>
+                  </div>
+                  <p class="board__price">$95</p>
+                  <div>
+                    <button class="button__custom">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="surfboards__shop__show-all">
+          <button class="button__custom">Show all</button>
+        </div>
+      </main>
+
+      <article class="surf-training__wrapper">
+        <div class="surf-training__text__wrapper">
+          <div class="surf-training__text">
+            <h1 class="surf-training__title">Surf Training</h1>
+
+            <p class="surf-training__description">
+              By better understanding the various aspects of surfing, By better
+              understanding the various aspects of surfing, you will improve
+              faster and have more fun in the water.
+            </p>
+
+            <button class="button__custom">Read More</button>
+          </div>
+        </div>
+        <div class="surf-training__image">
+          <img src="./img/imgskyinh.png" alt="man skying" />
+        </div>
+      </article>
+
+      <article class="point-break__wrapper">
+        <div class="point-break__image">
+          <img src="./img/imgdarkafternoon.png" alt="" />
+        </div>
+
+        <div class="point-break__text">
+          <h1 class="point-break__title">Point Break</h1>
+
+          <p class="point-break__description">
+            By better understanding the various aspects of By better
+            understanding the various aspects of surfing, By better
+            understanding the various aspects of surfing, you will improve
+            faster and have more fun in the water.
+          </p>
+
+          <button class="button__custom">Read More</button>
+        </div>
+      </article>
+    </div>
+
+    <div class="line"></div>
+
+    <section class="subscribe">
+      <img src="./img/man-with-skate-board.png" alt="" />
+      <div class="overlay">
+        <div class="subscribe__text">
+          <h1 class="subscribe__title">Join The Club</h1>
+
+          <p class="subscribe__description">
+            By better understanding the various aspects of surfing, you will
+            improve faster and have more fun in the water.
+          </p>
+
+          <div class="subscribe__input__wrapper">
+            <input
+              class="subscribe__input"
+              placeholder="YOUR E-MAIL"
+              type="text"
+            />
+            <button class="subscribe__button">
+              <i class="fa-regular fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a class="logo" href="#">
+        <img src="img/logo.png" alt="" />
+      </a>
+
+      <div class="footer__list">
+        <ul class="navigation__nav">
+          <li class="navigation__item">
+            <a href="#">Story</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Events</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Places</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Boards</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
